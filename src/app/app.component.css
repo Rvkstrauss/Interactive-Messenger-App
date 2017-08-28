@@ -1,0 +1,149 @@
+
+
+ul {
+  margin: 0 auto;
+}
+
+input {
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  height: 30px;
+  padding: 4px 4px 4px 15px;
+  /*-moz-transition: 1px solid #e3e4e6 150ms, background 150ms;*/
+}
+
+.application {
+  background: rgba(2, 2, 1, 0.4);
+  position: inherit;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/*.application::before {*/
+/*top: 0;*/
+/*left: 0;*/
+/*bottom: 0;*/
+/*right: 0;*/
+/*opacity: 0.2;*/
+/*content: "";*/
+/*z-index: -1;*/
+
+/*}*/
+
+.black-bar {
+  /*background: rgba(10, 10, 10, 0.3);*/
+  height: 15vh;
+  background: rgba(0, 0, 0, 0.4);
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.application-page {
+  box-sizing: border-box;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  position: relative;
+}
+
+.application-form {
+  display: flex;
+}
+
+h1, h2, h3, h4, p, h5 {
+  display: block;
+  padding:0;
+  margin: 17.5px 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h2,h3,h4 {
+  margin: 50px 30px;
+}
+
+.section {
+  padding: 2% 2%;
+  position: relative;
+  /*background-color: #7f838a !important;*/
+}
+
+.section-wrapper {
+  /*padding: 0px 30px;*/
+  z-index:2;
+  /*background-color: #7f838a !important;*/
+}
+
+.narrow-section {
+  width: 60vw;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  background: rgba(249, 249, 249, 0.1);
+  height: 65.8vh;
+  position: absolute;
+  z-index: 2;
+  top: 17vh;
+  left: 20vw;
+}
+.accent-section {
+  /*background: #fff;*/
+}
+
+.accent-section.small-accent {
+  padding: 0px 30px;
+}
+
+.page-centered {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.header-section {
+  padding-bottom: 0%;
+}
+
+.footer-section {
+  padding-top: 0%;
+  position: inherit;
+  width: 100%
+}
+
+.page-full-width {
+  width: 100%;
+}
+
+.content-wrapper {
+  /*background: #fff;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  /*padding-top: 50px;*/
+  /*padding-bottom: 50px;*/
+  height: 100%;
+  z-index: 2;
+  margin: 0 auto;
+}
+
+.content {
+  width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+div {
+  display: block;
+}
+
+
+
+.p-header h2 {
+  margin-top: 0px;
+}
+
+button:focus {
+  outline: none;
+}

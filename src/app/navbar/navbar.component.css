@@ -1,0 +1,73 @@
+.login-button{
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 1em;
+  background-color: #00a881;
+  padding: 12px;
+}
+
+h1{
+  font-size: 30px;
+  color: #00fffa;
+}
+
+ul a{
+  font-family: Roboto, sans-serif;
+}
+
+ul a:hover{
+  background-color: darkgray;
+}
+
+.active>a{
+  background-color: white;
+  color: aqua;
+}
+
+a {
+  float: left;
+  position: relative;
+  color: #FFFFFF;;
+  display: flex;
+  flex-direction: row;
+}
+
+#appMenu {
+  position: relative;
+  float: right;
+}
+
+.spacer {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.sidenav{
+  background: transparent;
+  float:left;
+  position: absolute;
+}
+
+h4 h2 {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+
+}
+
+.main-header {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  color: #fff;
+  background: rgba(122, 122, 122, 0.53);
+  margin: 0;
+}
+
+.main-header-text {
+  text-align: center;
+  padding: 20px 10px;
+}

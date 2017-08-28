@@ -1,3 +1,20 @@
-<p>
-  navbar works!
-</p>
+<md-toolbar class="main-header main-header-text">
+  <button *ngIf="isAuthenticated() === false" md-raised-button class="login-button" (click)="loginWithGoogle()" >
+  Login With Google
+  </button>
+  <a *ngIf="isAuthenticated()" (click)="logOut()">Log Out</a>
+  <span class="spacer"></span>
+
+    <!--<md-fab-button [routerLink]="['messages']">Chat</md-fab-button>-->
+  <div>
+      <div class="nav navbar-brand" *ngIf="isAuthenticated()">
+        <h1 style="font-family: Roboto-Light, sans-serif;">Welcome {{this.currentUser.displayName || 'Anonymous'}}</h1>
+      </div>
+  </div>
+  <span class="spacer"></span>
+  <!--[md-menu-trigger-for]="appMenu"-->
+  <!--<button md-icon-button>-->
+    <!--<i class="material-icons md-light">more_vert</i>-->
+  <!--</button>-->
+
+</md-toolbar>

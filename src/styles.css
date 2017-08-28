@@ -1,1 +1,73 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+body, html {
+  color: #fff;
+  /*padding-top: 10px;*/
+  /*padding-bottom: 70px;*/
+  font: 400 16px/24px Roboto,sans-serif;
+  text-transform: none;
+  letter-spacing: 0;
+  margin: 0 auto;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  background-color: rgba(20, 77, 84, 0.92);
+  height: 100vh;
+}
+
+body{
+  font-family: Roboto, sans-serif;
+  background-color: rgba(78, 36, 29, 0.82);
+
+}
+
+.main-content{
+  padding-top: 60px;
+  color: darkgray;
+  padding-bottom: 60px;
+}
+
+* {
+  font-family: Roboto, sans-serif;
+}
+
+.white-text {
+  color: #FFF!important;
+}
+
+.mat-select-placeholder {
+  color: #fff;
+  font-size: 20px;
+}
+
+.mat-select-underline {
+  background-color: #fff;
+}
+
+.mat-select-arrow{
+  color: #fff;
+}
+
+.mat-input-placeholder {
+  color: #fff;
+  font-size: 20px;
+}
+
+.mat-input-underline {
+  background-color: #fff;
+}
+
+.mat-select-placeholder .mat-input-underline {
+
+}
+
+md-input-container.md-input-focused:not(.md-input-has-value) md-select .md-select-value.md-select-placeholder {
+  color: #fff;
+}
+
+.material-icons.md-light{
+  color: #fff;
+}
+
+.mat-select-value-text {
+  font-size: 20px !important;
+  color: #fff !important;
+}

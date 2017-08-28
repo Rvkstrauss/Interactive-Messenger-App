@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Interactive Messages';
+
+
+getBackground() {
+    return {
+      'background': 'url(\'../assets/img/transparent-mist.png\')',
+      'background-repeat': 'no-repeat',
+      'background-size': '100% 100%',
+    };
+  }
 }

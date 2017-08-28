@@ -1,0 +1,40 @@
+<div>
+  <form #exampleForm autocomplete="off">
+    <div class="form-group">
+      <h3>Go ahead...Try sending a message</h3>
+      <input [(ngModel)]="message" type="text" class="form-control" id="message" name="message" placeholder="New Message...">
+    </div>
+
+    <button md-mini-fab type="submit" (click)="messageSend(exampleForm.message.value)" class="btn btn-primary"><i class="material-icons">check</i></button>
+  </form>
+
+  <div class="section-wrapper page-full-width ">
+    <div class="section accent-section small-section page-full-width">
+      <!--<div class="row show-hide-message">-->
+        <!--<div class="col-md-6 col-md-offset-3">-->
+          <!--<form [formGroup]="messageForm" #exampleForm (submit)="messageSend()" autocomplete="off">-->
+            <!--<div class="section narrow-section page-centered application-form">-->
+                  <!--<md-input-container class="example-form-question example-full-width">-->
+                    <!--<div class="example-form-field">-->
+                      <!--<input mdInput [formControlName]="message" type="text" name="message" placeholder="New Message...">-->
+                    <!--</div>-->
+                  <!--</md-input-container>-->
+                <!--<button type="submit" class="btn btn-primary">Submit</button>-->
+              <!--</div>-->
+          <!--</form>-->
+          <hr>
+      <md-card style="height: 400px; overflow-y: auto">
+        <md-card-content>
+            <div style="padding-bottom: 30px; text-align: left;" *ngFor="let currentMes of currentMessagesReverse">
+                <md-card class="example-form-question" style="width: 100%; display:inline-block;">
+                  <md-card-content >
+                    <span><strong>{{currentMes.user}}:</strong> {{currentMes.message}}
+                    </span>
+                  </md-card-content>
+                </md-card>
+            </div>
+        </md-card-content>
+      </md-card>
+    </div>
+  </div>
+</div>

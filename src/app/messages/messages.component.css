@@ -1,0 +1,91 @@
+.example-full-width {
+  width: 47%;
+}
+
+h4 {
+  font-family: Roboto-Light, "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  color: #00fffa;
+  letter-spacing: 4px;
+  text-align: left;
+}
+
+.example-form-question {
+  list-style-type: none;
+  padding: 0px 0px;
+  line-height: 1.4;
+  width: 50%;
+  font-size: 20px !important;
+}
+
+.example-form .example-form-question input{
+  line-height: 1.4;
+  border-radius: 3px;
+  border-width: 1px;
+  height: 40px;
+  padding: 4px 4px 4px 15px;
+  display: flex;
+  justify-content: center;
+  color: #fff !important;
+}
+
+
+.example-form-field {
+  position: relative;
+  -webkit-box-sizing: border-box;
+  display: block;
+  cursor: default;
+  text-align: -webkit-match-parent;
+  height: 30px;
+  padding: 4px 4px 4px 15px;
+  color: #fff;
+
+}
+
+/*md-select {*/
+/*border: none;*/
+/*font-size: 20px;*/
+/*}*/
+
+ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px;
+}
+
+.fab-button {
+  position: absolute;
+  left: 80%;
+  bottom: 7%;
+}
+
+.fab-button button {
+  background: rgba(53, 167, 143, 0.75);
+  font-size: 18px;
+  width: 100px;
+  height: 100px;
+  color: #fff;
+}
+
+/*span.mat-select-placeholder {*/
+/*opacity: 1;*/
+/*width: 176.082px;*/
+/*font-size: 20px;*/
+/*color: #fff;*/
+
+/*}*/
+
+/*span.mat-select-trigger {*/
+/*display: flex;*/
+/*align-items: center;*/
+/*height: 30px;*/
+/*min-width: 112px;*/
+/*cursor: pointer;*/
+/*position: relative;*/
+/*box-sizing: border-box;*/
+/*font-size: 20px;*/
+/*}*/
